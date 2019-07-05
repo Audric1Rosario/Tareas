@@ -1,0 +1,106 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "colas.h"
+#include "conio.h"
+
+typedef enum
+{
+   Encolar = 1,
+   Decolar = 2,
+   MostrarTodo = 3,
+   Salir = 4
+} eOpcionesMenu;
+
+typedef enum
+{
+   Arriba,
+   Abajo,
+   Izquierda,
+   Derecha,
+   Ninguno = -1
+} eFlecha;
+
+eOpcionesMenu MostrarMenu();
+eFlecha CapturarFlecha();
+int main()
+{
+   cola *nuevaCola = startQueue();
+   float nuevoValor;
+   char opcion;
+/*
+   do
+   {
+      fflush(stdin);
+
+
+      getch();
+
+   } while (nuevoValor != 0);*/
+   enqueue(nuevaCola, 15.6);
+   enqueue(nuevaCola, 125.6);
+   enqueue(nuevaCola, 12.3);
+   enqueue(nuevaCola, 26.8);
+   enqueue(nuevaCola, 8.3);
+
+   int loop = 0;
+   while (!isEmpty(nuevaCola))
+      printf("Valor %d: %.2f\n", ++loop, dequeue(nuevaCola));
+
+
+   return 0;
+}
+
+eOpcionesMenu MostrarMenu()
+{
+   eOpcionesMenu seleccion;
+   fflush(stdin);
+   _setcursortype(0);
+   do
+   {
+//      textbackground()
+      printf("1: Agregar valor.\n");
+      printf("2: Mostrar valor.\n");
+      printf("3: Mostrar todos los valores.\n");
+      printf("Digite un valor (0 para salir): ");
+
+      switch(CapturarFlecha())
+      {
+      case Arriba:
+         seleccion = seleccion == Encolar ? Salir : seleccion--;
+         break;
+      case Abajo:
+         seleccion = seleccion == Salir ? Encolar : seleccion++;
+         break;
+
+      default:
+         continue;
+      }
+
+
+   } while (1);
+}
+
+eFlecha CapturarFlecha()
+{
+   fflush(stdin);
+   getch(); // Caracter 224
+   getch(); // Corchete;
+
+   switch (getch())
+   {
+   case 'A':
+      return Arriba;
+
+   case 'B':
+      return Abajo;
+
+   case 'C':
+      return Derecha;
+
+   case 'D':
+      return Izquierda;
+
+   default:
+      return Ninguno;
+   }
+}

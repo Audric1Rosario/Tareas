@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1558725343 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\pilas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilaEstatica.h"
+
+1558723187 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\pilas\pilaestatica.c
+	"PilaEstatica.h"
+
+1558722322 c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\pilas\pilaestatica.h
+	<stdlib.h>
+
+1558721235 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\pilas\piladinamica.c
+

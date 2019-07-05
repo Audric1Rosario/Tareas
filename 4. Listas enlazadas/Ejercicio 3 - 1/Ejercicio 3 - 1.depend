@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1560827963 source:c:\users\audri\desktop\ejercicio 3 - 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cola_enlazada.h"
+
+1560827887 source:c:\users\audri\desktop\ejercicio 3 - 1\cola_enlazada.c
+	<stdlib.h>
+	"cola_enlazada.h"
+
+1560827887 c:\users\audri\desktop\ejercicio 3 - 1\cola_enlazada.h
+	<stdlib.h>
+

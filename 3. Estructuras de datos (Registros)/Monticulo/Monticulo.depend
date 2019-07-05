@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1559080113 source:c:\users\audri\desktop\monticulo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"monticulo.h"
+
+1559079977 source:c:\users\audri\desktop\monticulo\monticulo.c
+	<stdlib.h>
+	<math.h>
+	"monticulo.h"
+
+1559078971 c:\users\audri\desktop\monticulo\monticulo.h
+	<stdlib.h>
+
+1559080113 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\monticulo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"monticulo.h"
+
+1559078971 c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\monticulo\monticulo.h
+	<stdlib.h>
+
+1559086611 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\monticulo\monticulo.c
+	<stdlib.h>
+	<math.h>
+	"monticulo.h"
+

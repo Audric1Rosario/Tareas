@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\audri\desktop\colas\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1559659278 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\colas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"colas.h"
+	"conio.h"
+
+1559655375 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\colas\colas.c
+	"colas.h"
+
+1559653673 c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\colas\colas.h
+	<stdlib.h>
+
+1286690350 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\colas\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1286690424 c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\3. estructuras de datos (registros)\colas\conio.h
+	<stdio.h>
+

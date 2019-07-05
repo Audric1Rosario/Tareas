@@ -1,0 +1,17 @@
+#include <stdlib.h>
+#include <string.h>
+#include "pila.h"
+
+#ifndef _pila
+
+void Imprimir_una_persona()
+{
+   struct Persona miNuevaPersona;
+   miNuevaPersona.id = 5;
+   strcpy(miNuevaPersona.nombre, "Audric");
+   strcpy(miNuevaPersona.apellido, "Rosario");
+   miNuevaPersona.edad = 18;
+   miNuevaPersona.balance = 150;
+}
+#endif // _pila
+

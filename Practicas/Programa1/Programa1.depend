@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1558448790 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\programa1\versionmatriz.c
+	<stdio.h>
+	<stdlib.h>
+
+1558449068 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\programa1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"versionMatriz.h"
+	"versionPuntero.h"
+
+1558448851 c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\programa1\versionmatriz.h
+
+1558448839 c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\programa1\versionpuntero.h
+
+1558449001 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\programa1\versionpuntero.c
+	<stdio.h>
+	<stdlib.h>
+

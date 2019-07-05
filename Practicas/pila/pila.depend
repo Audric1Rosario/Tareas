@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1558718529 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\pila\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila_dinamica.h"
+	"pila.h"
+
+1558711706 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\pila\pila.c
+	<stdlib.h>
+	<string.h>
+	"pila.h"
+
+1558711252 c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\pila\pila.h
+	<stdlib.h>
+
+1558718355 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\pila\pila_dinamica.c
+	"pila_dinamica.h"
+
+1558718355 c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\practicas\pila\pila_dinamica.h
+	<stdlib.h>
+

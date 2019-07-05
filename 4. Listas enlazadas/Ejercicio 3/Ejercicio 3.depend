@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1560266977 source:c:\users\audri\desktop\ejercicio 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila_enlazada.h"
+
+1560266649 c:\users\audri\desktop\ejercicio 3\pila_enlazada.h
+	<stdlib.h>
+
+1560266823 source:c:\users\audri\desktop\ejercicio 3\pila_enlazada.c
+	"pila_enlazada.h"
+	<stdlib.h>
+

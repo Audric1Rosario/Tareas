@@ -1,0 +1,60 @@
+#include "colas.h"
+
+const int tam_queue = 100;
+
+cola* startQueue()
+{
+   cola* colas = (cola*) malloc(sizeof(cola));
+   colas->elements = (float*) malloc(tam_queue*sizeof(float));
+   colas->first = 0;
+   colas->last = 0;
+   colas->array_size = tam_queue;
+   colas->cantidad = 0;
+
+   return colas;
+}
+
+void changeSpace(cola* colas)
+{
+   if (sizequeue(colas) < colas->array_size)
+      return colas;
+
+   float* nuevoEspacio = (float*)malloc(colas->array_size * 2);
+   int loop = colas->array_size;
+
+   while (loop != colas->last)
+   {
+      *(nuevoEspacio++) = *(colas->elements + loop++);
+
+      if (loop == colas->array_size)
+         loop = 0;
+   }
+   colas->elements = nuevoEspacio - colas->array_size;
+   colas->first = 0;
+   colas->last = 0;
+   colas->array_size *= 2;
+
+   return;
+}
+
+short isEmpty(cola* colas)
+{
+   return sizequeue(colas) == 0;
+}
+
+float getFront(cola* colas)
+{
+   return *(colas->elements + colas->first);
+}
+
+void enqueue(cola* colas)
+{
+
+}
+
+float dequeue(cola* colas);
+
+int sizequeue(cola* colas)
+{
+   return colas->cantidad;
+}

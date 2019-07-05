@@ -1,0 +1,2 @@
+void punteroMain(int, int);
+
