@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1559827996 source:c:\users\audri\desktop\examen\trespilas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PilaEstatica.h"
+
+1559827706 source:c:\users\audri\desktop\examen\trespilas\pilaestatica.c
+	"PilaEstatica.h"
+
+1559827445 c:\users\audri\desktop\examen\trespilas\pilaestatica.h
+	<stdlib.h>
+

@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1562851891 source:c:\users\audri\desktop\proyecto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"conio.h"
+	"ListaDobleCircular.h"
+
+1286690350 source:c:\users\audri\desktop\proyecto\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1286690424 c:\users\audri\desktop\proyecto\conio.h
+	<stdio.h>
+
+1562852313 source:c:\users\audri\desktop\proyecto\listadoblecircular.c
+	<stdlib.h>
+	"ListaDobleCircular.h"
+
+1562852312 c:\users\audri\desktop\proyecto\listadoblecircular.h
+	<stdlib.h>
+	<stdio.h>
+

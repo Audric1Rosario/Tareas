@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1559828553 source:c:\users\audri\desktop\examen\refugio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+	"colas.h"
+
+1559826384 c:\users\audri\desktop\examen\refugio\colas.h
+	<stdlib.h>
+
+1559825524 source:c:\users\audri\desktop\examen\refugio\colas.c
+	"colas.h"
+
+1286690350 source:c:\users\audri\desktop\examen\refugio\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1286690424 c:\users\audri\desktop\examen\refugio\conio.h
+	<stdio.h>
+
