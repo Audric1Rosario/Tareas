@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1563457504 source:c:\users\audri\desktop\universidad\3. ciclo\fundamentos de la programación\archivos\clase\5. divide y vencerás\ordenación_búsqueda\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

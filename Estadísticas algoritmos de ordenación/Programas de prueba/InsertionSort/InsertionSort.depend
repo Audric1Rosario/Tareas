@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1563766984 source:c:\users\audri\desktop\tarea\insertionsort\main.c
+	<stdio.h>
+	<stdlib.h>
+	"randomgenerator.h"
+	<stdint.h>
+	<sys/time.h>
+
+1563744326 source:c:\users\audri\desktop\tarea\insertionsort\randomgenerator.c
+	<stdlib.h>
+	<time.h>
+	"randomgenerator.h"
+
+1563744331 c:\users\audri\desktop\tarea\insertionsort\randomgenerator.h
+	<stdlib.h>
+

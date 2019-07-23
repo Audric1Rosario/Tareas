@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1563753190 source:c:\users\audri\desktop\tarea\quicksort\main.c
+	<stdio.h>
+	<stdlib.h>
+	"randomgenerator.h"
+	<stdint.h>
+	<sys/time.h>
+
+1563744326 source:c:\users\audri\desktop\tarea\quicksort\randomgenerator.c
+	<stdlib.h>
+	<time.h>
+	"randomgenerator.h"
+
+1563744331 c:\users\audri\desktop\tarea\quicksort\randomgenerator.h
+	<stdlib.h>
+
+1563753190 source:c:\users\audri\desktop\tarea\programas de prueba\quicksort\main.c
+	<stdio.h>
+	<stdlib.h>
+	"randomgenerator.h"
+	<stdint.h>
+	<sys/time.h>
+
+1563744331 c:\users\audri\desktop\tarea\programas de prueba\quicksort\randomgenerator.h
+	<stdlib.h>
+
+1563744326 source:c:\users\audri\desktop\tarea\programas de prueba\quicksort\randomgenerator.c
+	<stdlib.h>
+	<time.h>
+	"randomgenerator.h"
+

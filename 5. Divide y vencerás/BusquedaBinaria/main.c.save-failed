@@ -1,0 +1,148 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+// Usuario
+void CapturarValores(int[], int);
+void MostrarValores(int[], int);
+
+// Búsqueda
+int linealsearch(int[], int, int);
+int lsearch(int[], int, int);
+int linealsearch_recursive(int[], int, int, int);
+
+int binarysearch(int[], int, int);
+int binarysearch_recursive(int [], int, int, int);
+
+// Números Aleatorios
+void aleatory_numbers(int[], int, int, int);
+int randomize(int, int);
+
+// Ordenación
+void mergesort(int[], int, int);
+void merge(int[], int, int, int);
+
+int main()
+{
+    int n, dest, pos;
+    printf("Digite el tama%co del arreglo.\n", 164);
+    scanf("%d", &n);
+    int arreglo[n];
+
+    CapturarValores(arreglo, n);
+    MostrarValores(arreglo, n);
+
+    printf("Digite el valor que desea buscar");
+    scanf("%d", &dest);
+
+    pos = linealsearch(arreglo, n, dest);
+    return 0;
+}
+
+/// Usuario
+void CapturarValores(int arr[], int n)
+{
+   int i;
+
+   system("cls");
+   for (i = 0; i < n; i++)
+   {
+      printf("Ingrese valor #%d: ", i + 1);
+      scanf("%d", &arr[i]);
+   }
+}
+
+void MostrarValores(int arr[], int n)
+{
+   int i;
+
+   system("cls");
+   printf("Valores capturados:\n");
+   for (i = 0; i < n; i++)
+   {
+      printf("Valor #%d: %d\n", i + 1, arr[i]);
+   }
+   printf("\n\n");
+   system("pause");
+}
+
+/// Búsqueda
+int linealsearch(int arr[], int n, int ele)
+{
+   int i;
+   for (i = 0; i < n; i++)
+   {
+      if (arr[i] == i)
+         return i;
+   }
+   /// Valor inválido
+   return -1;
+}
+
+/*
+   A esta estrategia se le llama currificación
+   consiste en poner una función mas sencilla y bonita para hacer la
+   llamada a la recursiva
+*/
+int lsearch(int arr[], int n, int ele)
+{
+   return linealsearch_recursive(arr, n, 0, ele);
+}
+
+int linealsearch_recursive(int arr[], int n, int pos, int ele)
+{
+   if (pos >= n)
+      return -1;
+
+   return arr[pos] == ele ? pos : linealsearch_recursive(arr, n, pos + 1, ele);
+
+}
+
+int binarysearch(int arr[], int n, int dest)
+{
+   return binarysearch_recursive(arr, dest, 0, n - 1);
+}
+
+int binarysearch_recursive(int arr[], int ele, int l, int r)
+{
+   int m = (r + l) / 2;
+
+   if (arr[m] == ele)
+      return m;
+   if (r < l)
+      return -1;
+   if (arr[m] < ele)
+      return binarysearch_recursive(arr, ele, m - 1, l);
+   if (arr[m] > ele)
+      return binarysearch_recursive(arr, ele, r, m + 1);
+
+   return -1;
+}
+
+/// Números aleatorios
+void aleatory_numbers(int arr[], int n, int a, int b)
+{
+   int i;
+   srand(time(NULL));
+   for (i = 0; i < n; i++)
+   {
+      arr[i] = randomize(a, b);
+   }
+}
+
+int randomize(int a, int b)
+{
+   return rand() % (b - a + 1);
+}
+
+/// Ordenación por mezcla
+void mergesort(int arr[], int l, int r)
+{
+   if (l < r)
+   {
+      int m = (l + r) / 2;
+      mergesort(arr, l, m);
+      mergesort(arr, m + 1, r);
+   }
+}
+void merge(int[], int, int, int);
