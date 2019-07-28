@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1563892040 source:c:\users\audri\desktop\sudoku\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+
+1286690350 source:c:\users\audri\desktop\sudoku\conio.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<string.h>
+	"conio.h"
+
+1286690424 c:\users\audri\desktop\sudoku\conio.h
+	<stdio.h>
+
