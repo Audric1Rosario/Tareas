@@ -6,7 +6,7 @@
 void CapturarValores(int[], int);
 void MostrarValores(int[], int);
 
-// Búsqueda
+// Bï¿½squeda
 int linealsearch(int[], int, int);
 int lsearch(int[], int, int);
 int linealsearch_recursive(int[], int, int, int);
@@ -14,7 +14,7 @@ int linealsearch_recursive(int[], int, int, int);
 int binarysearch(int[], int, int);
 int binarysearch_recursive(int [], int, int, int);
 
-// Números Aleatorios
+// Nï¿½meros Aleatorios
 void aleatory_numbers(int[], int, int, int);
 
 void anumbers(int[], int);
@@ -22,7 +22,7 @@ long aleatory_numbers_recursive(int[], int, int);
 
 int randomize(int, int);
 
-// Ordenación
+// Ordenaciï¿½n
 void mergesort(int[], int, int);
 void merge(int[], int, int, int);
 
@@ -92,7 +92,7 @@ void MostrarValores(int arr[], int n)
    system("pause");
 }
 
-/// Búsqueda
+/// Bï¿½squeda
 int linealsearch(int arr[], int n, int ele)
 {
    int i;
@@ -101,13 +101,13 @@ int linealsearch(int arr[], int n, int ele)
       if (arr[i] == ele)
          return i;
    }
-   /// Valor inválido
+   /// Valor invï¿½lido
    return -1;
 }
 
 /*
-   A esta estrategia se le llama currificación
-   consiste en poner una función mas sencilla y bonita para hacer la
+   A esta estrategia se le llama currificaciï¿½n
+   consiste en poner una funciï¿½n mas sencilla y bonita para hacer la
    llamada a la recursiva
 */
 int lsearch(int arr[], int n, int ele)
@@ -146,7 +146,7 @@ int binarysearch_recursive(int arr[], int ele, int l, int r)
    //return -1;
 }
 
-/// Números aleatorios
+/// Nï¿½meros aleatorios
 void aleatory_numbers(int arr[], int n, int a, int b)
 {
    int i;
@@ -181,7 +181,7 @@ int randomize(int a, int b)
    return rand() % (b - a + 1) + a;
 }
 
-/// Ordenación por mezcla
+/// Ordenaciï¿½n por mezcla
 void mergesort(int arr[], int l, int r)
 {
    if (l < r)
